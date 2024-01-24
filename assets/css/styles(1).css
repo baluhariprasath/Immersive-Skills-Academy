@@ -304,11 +304,15 @@ a{
 /* slider starts here */
 
 .slider{
-	max-width: 1150px;
 	display: flex;
+	/*position: absolute;
+	padding: 20px;
+	margin-top: 50px;*/
 }
 
 .slider .card{
+	width: 100%;
+	height: auto;
 	flex: 1;
 	margin: 0 10px;
 	background: #fff;
@@ -323,5 +327,15 @@ a{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-    
+}
+
+.slider> div:nth-child(1) > .content > .duration,
+.slider> div:nth-child(2) > .content > .duration{
+	display: inline-flex;
+} 
+
+.slider> div:nth-child(1) > .content > .duration > p:nth-child(1), 
+.slider> div:nth-child(2) > .content > .duration > p:nth-child(1){
+	padding-left: 20px;
+	padding-right: 80px;
 }
