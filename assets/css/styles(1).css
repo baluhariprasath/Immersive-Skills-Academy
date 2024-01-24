@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-	max-width: 1300px;
+	max-width: 1500px;
 	margin: auto;
 }
 
@@ -45,6 +45,15 @@ a{
 	z-index: 99;
 	padding: 15px;
 }
+
+/*.header.fixed{
+	position: fixed;
+	z-index: 999;
+	background-color: rgba(255,255,255,.96);
+    backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: 0 2px 6px 0 rgba(16,18,19,.08);
+    transition: background-color .3s ease-in,padding .3s;
+}*/
 
 .site-header .item-left{
 	flex: 0 0 17%;
@@ -131,7 +140,7 @@ a{
 	color: #ffffff;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 30px 15px;
+	padding: 20px 15px;
 }
 
 .site-header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item{
@@ -197,3 +206,122 @@ a{
 	background-color: #ffffff;
 }*/
 
+/* hero section */
+.hero-section{
+	
+	height: auto;
+
+	align-items: center;
+	padding: 0 20px;
+}
+
+.hero-section .container{
+	color: #000000;
+	/*margin: auto;*/
+	margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+	padding: 40px;
+}
+
+.hero-section > .container > .row{
+	justify-content: space-between;
+}
+
+.hero-section > .container > .row > div.column-right,
+.hero-section > .container > .row > div.column-left{
+	padding: 20px;	
+}
+
+.hero-section .column-left > img.decor-img{
+	padding-top: -20px;
+	padding-left:  55%;
+}
+
+.hero-section .container h1{
+	font-size: 60px;
+	max-width: 600px;
+	margin-bottom: 0px;
+}
+
+.hero-section .container p{
+	font-size: 18px;
+	font-weight: 600;
+	max-width: 600px;
+}
+
+.hero-section .container .btn-button{
+	width: 180px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: #7FC921;
+	border-color: transparent;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-section .container .btn-button:hover{
+	border-color: #7FC921;
+	color: #000;
+	background-color: transparent;
+}
+
+/* courses section */
+.Courses-section > .container{
+	display: flex;
+	justify-content: center;
+}
+
+.Courses-section > .container > .row > .title > h3,
+.Courses-section > .container > .row > .title > h2,
+.Courses-section > .container > .row > .title > p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Courses-section > .container > .row > .title > h3{
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.Courses-section > .container > .row > .title > h2{
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.Courses-section > .container > .row > .title > p{
+	font-size: 15px;
+	line-height: 25px;
+	text-align: center;
+}
+
+/* slider starts here */
+
+.slider{
+	max-width: 1150px;
+	display: flex;
+}
+
+.slider .card{
+	flex: 1;
+	margin: 0 10px;
+	background: #fff;
+}
+
+.slider .card .img{
+    height: 200px;
+    width: 100%;
+}
+
+.slider .card .img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+    
+}
