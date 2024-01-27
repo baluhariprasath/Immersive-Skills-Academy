@@ -46,6 +46,10 @@ a{
 	padding: 15px;
 }
 
+.site-header .container{
+	max-width: 1500px;
+}
+
 /*.header.fixed{
 	position: fixed;
 	z-index: 999;
@@ -338,4 +342,12 @@ a{
 .slider> div:nth-child(2) > .content > .duration > p:nth-child(1){
 	padding-left: 20px;
 	padding-right: 80px;
+}
+
+
+/*   Development section   */
+
+.development-section{
+	position: relative;
+	padding: 70px 0;
 }
