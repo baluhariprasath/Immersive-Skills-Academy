@@ -350,4 +350,108 @@ a{
 .development-section{
 	position: relative;
 	padding: 70px 0;
+	display: flex;
 }
+
+.development-section .container{
+	max-width: 1200px;
+}
+
+.development-section .container .row .dev-title > h4{
+	justify-content: center;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.development-section .container .row .dev-title > h2{
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+}
+
+.development-section .container .row .dev-title > p{
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.row > .dev-title > .growth-card{
+	display: flex;
+	gap: 1.5rem;
+	width: 1100px;
+	height: 230px;
+	padding: 70px 0;
+}
+
+.row > .dev-title > .growth-card > .text-card{
+	/*width: 180px;
+	height: 200px;*/
+	flex: 1;
+	border-radius: 6px;
+	border-color: #838383;
+	border: 1px;
+	background-color: #fff;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 2px 10px 0 rgba(31,29,13,.1);
+}
+
+.row > .dev-title > .growth-card > .text-card > img,
+.row > .dev-title > .growth-card > .text-card > h3,
+.row > .dev-title > .growth-card > .text-card > p {
+	padding: 15px 0px 0px 15px;
+}
+
+.row > .dev-title > .growth-card > .text-card > h3{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.row > .dev-title > .growth-card > .text-card > p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+
+/*  academy-partner  */
+
+.academy-partner{
+	position: relative;
+	padding: 0 0 0 50px;
+	display: flex;
+}
+
+.academy-partner .container{
+	max-width: 1200px;
+}
+
+.academy-partner .container .row .ap-title > h2{
+	justify-content: center;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.row > .ap-title > .ap-image{
+	display: flex;
+	gap: 3.5rem;
+	width: 830px;
+	height: 160px;
+	padding: 40px 0;
+}
+
+.row > .ap-title > .ap-image > div{
+	flex: 1;
+	background-position: center;
+	background-size: cover;
+}
+
+
+	
