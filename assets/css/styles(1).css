@@ -528,3 +528,48 @@ ul.aligned li{
 	color: #fff;
 	float: right;
 }
+
+
+/* feedback section */
+
+.feedback{
+	position: relative;
+	padding: 70px 0;
+	display: flex;
+}
+
+.feedback .container{
+	max-width: 1200px;
+}
+
+.feedback .container .row .fb-title > h3{
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+
+.feedback .container .row .fb-title > img{
+	padding-left: 69%;
+}
+
+.feedback .container .row .fb-title > p{
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/*  testimonial starts here  */
+
+.testimonial .image{
+	height: 70px;
+	width: 70px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/*  testimonial ends here  */
