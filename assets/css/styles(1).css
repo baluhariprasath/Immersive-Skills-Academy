@@ -422,7 +422,7 @@ a{
 
 .academy-partner{
 	position: relative;
-	padding: 0 0 0 50px;
+	padding: 0 50px 0 50px;
 	display: flex;
 }
 
@@ -454,4 +454,77 @@ a{
 }
 
 
-	
+/* explore career */	
+
+.explore-career{
+	position: relative;
+	display: flex;
+	padding: 70px 0;
+	background-color: #F3F4F5;
+}
+
+.explore-career .container{
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.explore-career > .container > .row{
+	justify-content: space-between;
+}
+
+.career-title{
+	/*flex: unset;*/
+	padding: 15px;
+	width: 35%;
+	position: relative;
+	top: -25px;
+}
+
+.career-title > h3{
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.career-title > h2{
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 32px;
+}
+
+.career-title > p{
+	font-weight: lighter;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.career-courses{
+    /*flex: unset;
+    flex-wrap: wrap;*/
+	padding: 15px;
+	width: 60%;
+}
+
+ul.aligned{
+	padding-right: 0;
+}
+
+ul{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+ul.aligned li{
+	display: inline-flex;
+	border: 2px solid #7FC921;
+	text-transform: none;
+	margin: 5px 15px 15px 5px;
+	padding: 10px 20px;
+	font-weight: 400;
+	background: #7FC921;
+	color: #fff;
+	float: right;
+}
