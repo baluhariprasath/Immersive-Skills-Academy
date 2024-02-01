@@ -216,16 +216,16 @@ a{
 	height: auto;
 
 	align-items: center;
-	padding: 0 20px;
+	/*padding: 0 20px;*/
 }
 
 .hero-section .container{
 	color: #000000;
 	/*margin: auto;*/
 	margin-top: 20px;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 100px;
 	padding: 40px;
 }
 
@@ -565,11 +565,27 @@ ul.aligned li{
 
 /*  testimonial starts here  */
 
+.testimonial{
+	background-color: black;
+	width: 800px;
+	height: 300px;
+	border-radius: 20px;
+}
+
 .testimonial .image{
 	height: 70px;
 	width: 70px;
 	object-fit: cover;
 	border-radius: 50%;
+}
+
+.slide .top-content{
+	display: flex;
+	padding: 30px 50px;
+}
+
+.slide .top-content h3, .slide .top-content p{
+	color: #ffffff;
 }
 
 /*  testimonial ends here  */
