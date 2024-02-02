@@ -38,6 +38,7 @@ a{
 	text-decoration: none;
 }
 
+---------------------------------------------------------------------
 /* header */
 .site-header{
 	display: block;
@@ -210,6 +211,8 @@ a{
 	background-color: #ffffff;
 }*/
 
+---------------------------------------------------------------------
+
 /* hero section */
 .hero-section{
 	
@@ -274,6 +277,8 @@ a{
 	color: #000;
 	background-color: transparent;
 }
+
+---------------------------------------------------------------------
 
 /* courses section */
 .Courses-section > .container{
@@ -344,6 +349,7 @@ a{
 	padding-right: 80px;
 }
 
+---------------------------------------------------------------------
 
 /*   Development section   */
 
@@ -417,8 +423,9 @@ a{
 	line-height: 18px;
 }
 
+---------------------------------------------------------------------
 
-/*  academy-partner  */
+/*  academy-partner section */
 
 .academy-partner{
 	position: relative;
@@ -453,8 +460,9 @@ a{
 	background-size: cover;
 }
 
+---------------------------------------------------------------------
 
-/* explore career */	
+/* explore career section*/	
 
 .explore-career{
 	position: relative;
@@ -529,6 +537,7 @@ ul.aligned li{
 	float: right;
 }
 
+---------------------------------------------------------------------
 
 /* feedback section */
 
@@ -565,7 +574,7 @@ ul.aligned li{
 
 /*  testimonial starts here  */
 
-.testimonial{
+/*.testimonial{
 	background-color: black;
 	width: 800px;
 	height: 300px;
@@ -586,6 +595,86 @@ ul.aligned li{
 
 .slide .top-content h3, .slide .top-content p{
 	color: #ffffff;
+}*/
+
+.col-sm-6{
+	background-color: #000;
+	border-radius: 20px;
+	width: 800px;
+	height: 300px;
 }
+
+.testimonial-wrapper {
+	padding: 0 10px;
+}
+
+.testimonial {
+    color: #808080;
+    position: relative;
+    padding: 10px 50px;
+    border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+/*.testimonial::after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: block;
+	background: #f1f1f1;
+	border: 1px solid #efefef;
+	border-width: 0 0 1px 1px;
+	position: absolute;
+	bottom: -8px;
+	left: 46px;
+	transform: rotateZ(-46deg);
+}*/
+
+.media {
+	position: relative;
+	padding: 30px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.media-left{
+	width: 15%;
+}
+
+.media img {
+	width: 75px;
+	height: 75px;
+	display: block;
+	border-radius: 50%;
+}
+
+.media-body{
+	width: 60%;
+}
+
+.overview {
+	color: #fff;
+	padding: 3px 0 0 15px;
+}
+
+.overview .name{
+	padding-bottom: 10px;
+}
+
+.overview b {
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.overview .details {
+	padding: 5px 0 8px;
+}
+
+.media-icon{
+	width: 25%;
+	justify-content: flex-end;
+	display: flex;
+}
+
 
 /*  testimonial ends here  */
