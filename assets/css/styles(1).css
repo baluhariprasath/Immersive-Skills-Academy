@@ -570,6 +570,7 @@ ul.aligned li{
 	text-align: center;
 	font-size: 20px;
 	line-height: 24px;
+	padding-bottom: 30px;
 }
 
 /*  testimonial starts here  */
@@ -678,3 +679,137 @@ ul.aligned li{
 
 
 /*  testimonial ends here  */
+
+---------------------------------------------------------------------
+
+/* newsletter form section */
+
+/*.join-section{
+	background-color: #F3F4F5;
+	display: flex;
+	padding: 70px 0;
+}
+
+.join-sectin .container{
+	max-width: 1200px;
+	margin: auto;
+}*/ 
+
+
+.col-md-4 > h2{
+	display: flex;
+	width: 200px;
+	padding: 50px;
+}
+
+
+
+.form-inline{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	border: none;
+	background-color: #E6EFFB;
+}
+
+#email{
+	width: 70%;
+}
+
+---------------------------------------------------------------------
+
+/*   footer section   */
+
+.footer{
+	background-color: #000000;
+	padding: 70px 0;
+}
+
+.footer .container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.footer .container .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-col{
+	width: 25%;
+	/*padding: 0 15px;*/
+}
+
+.footer-col h4{
+	font-size: 18px;
+	/*color: #fff;*/
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #7FC921;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	/*color: #ffffff;*/
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #bbbbbb;
+	padding-left: 8px;
+}
+
+.footer-col p{
+	padding-bottom: 50px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #000000;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #7FC921;
+	background-color: #f2f2f2;
+}
+
+.copyright_widget .copyright_text {
+    padding: 40px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0!important;
+}
